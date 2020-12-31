@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta title="clone-git" />
+    <style>
+      body {
+        background-color: #12131b;
+        color: white;
+        margin: 0px;
+      }
+      .navBar {
+        margin: 15px;
+        display: grid;
+        grid-template-columns: 40px 1fr 400px;
+      }
+      .navBar img {
+        float: left;
+        align-self: center;
+        padding: 0px;
+      }
+      .navBar nav li {
+        list-style-type: none;
+        float: left;
+      }
+      .navBar a {
+        color: white;
+        text-decoration: none;
+        margin-left: 15px;
+      }
+      .navBar-right {
+        float: right;
+      }
+      #search {
+        width: 200px;
+        padding: 12px;
+        background-color: #555e6f;
+      }
+      #signUP {
+        border: 1px solid white;
+        padding: 10px;
+        border-radius: 10px;
+      }
+      .content-main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 15px;
+      }
+      .intro h1 {
+        font-size: 75px;
+      }
+      .intro p {
+        font-size: 30px;
+        color: #5a73a6;
+      }
+      #email {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+      }
+      #edtEmail {
+        padding: 15px;
+      }
+      #btnSend {
+        padding: 30px 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="navBar">
+      <div>
+        <img src="img_src/git_icon.png" width="40px" />
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#">Why GitHub?</a></li>
+          <li><a href="#">Team</a></li>
+          <li><a href="#">Enterprise</a></li>
+          <li><a href="#">Explore</a></li>
+          <li><a href="#">Marketplace</a></li>
+          <li><a href="#">Pricing</a></li>
+        </ul>
+      </nav>
+      <nav class="navBar-right">
+        <input id="search" type="text" placeholder="Search GitHub" />
+        <a href="#">Sign in</a>
+        <a href="#" id="signUP">Sign up</a>
+      </nav>
+    </header>
+    <section class="content-main">
+      <article class="intro">
+        <h1>
+          Where the world builds software
+        </h1>
+        <p>
+          Millions of developers and companies build, ship, and maintain their
+          software on GitHub—the largest and most advanced development platform
+          in the world.
+        </p>
+        <div id="email">
+          <input id="edtEmail" type="text" placeholder="Email address" />
+          <input id="btnSend" type="button" value="Sign up for GitHub" />
+        </div>
+      </article>
+    </section>
+  </body>
+</html>
