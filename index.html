@@ -36,14 +36,14 @@
         padding: 12px;
         background-color: #555e6f;
       }
-      #signUP {
+      .signUP {
         border: 1px solid white;
         padding: 10px;
         border-radius: 10px;
       }
       .content-main {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1.2fr;
         margin: 15px;
       }
       .intro h1 {
@@ -55,13 +55,18 @@
       }
       #email {
         display: grid;
-        grid-template-columns: 2fr 1fr;
+        grid-template-columns: 1.5fr 1fr;
       }
       #edtEmail {
         padding: 15px;
+        font-size: 15px;
       }
-      #btnSend {
-        padding: 30px 30px;
+      #email .signUP {
+        font-size: 20px;
+        text-align: center;
+        padding: 15px;
+        background-color: green;
+        border: green;
       }
     </style>
   </head>
@@ -83,7 +88,7 @@
       <nav class="navBar-right">
         <input id="search" type="text" placeholder="Search GitHub" />
         <a href="#">Sign in</a>
-        <a href="#" id="signUP">Sign up</a>
+        <a href="#" class="signUP">Sign up</a>
       </nav>
     </header>
     <section class="content-main">
@@ -98,7 +103,7 @@
         </p>
         <div id="email">
           <input id="edtEmail" type="text" placeholder="Email address" />
-          <input id="btnSend" type="button" value="Sign up for GitHub" />
+          <a class="signUP"><strong>Sign up for GitHub</strong></a>
         </div>
       </article>
     </section>
