@@ -1,2 +1,2 @@
 # frontClone
-web page : https://hbkim14.github.io/frontClone/index
+web page : https://hbkim14.github.io/frontClone/
