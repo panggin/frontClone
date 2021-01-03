@@ -6,12 +6,12 @@
 
     <style>
       body {
-        background-color: #12131b;
+        background-color: #081838;
         color: white;
         margin: 15px 20px;
       }
       header {
-        margin: 30px 15px 15px;
+        margin: 15px 15px 15px;
         display: grid;
         grid-template-columns: 40px 1fr 400px;
       }
@@ -21,7 +21,7 @@
       }
       header ul {
         margin: 0px;
-        padding: 0px 0px 0px 10px;
+        padding: 0px 0px 0px 20px;
       }
       header li {
         margin-top: 10px;
@@ -41,12 +41,12 @@
         padding: 12px;
         border: none;
         border-radius: 10px;
-        background-color: #85a8d4;
+        background-color: #293142;
       }
       .signUP {
         border: 1px solid white;
-        padding: 10px;
-        border-radius: 10px;
+        padding: 5px 8px 8px;
+        border-radius: 5px;
       }
       .content-main {
         display: grid;
@@ -69,7 +69,7 @@
         padding: 15px;
         font-size: 15px;
         border: none;
-        border-radius: 10px;
+        border-radius: 5px;
       }
       .content-main .signUP {
         font-size: 15px;
@@ -121,9 +121,7 @@
   <body>
     <h1 id="mini">Your screen is too small to display!</h1>
     <header>
-      <div>
-        <img src="img_src/git_icon.png" width="40px" />
-      </div>
+      <a href="index.html"><img src="img_src/git_icon.png" width="40px" /></a>
       <nav>
         <ul>
           <li><a href="#">Why GitHub?</a></li>
@@ -137,7 +135,7 @@
       <nav class="nav-right">
         <input id="search" type="text" placeholder="Search GitHub" />
         <a href="sign_in.html">Sign in</a>
-        <a href="#" class="signUP">Sign up</a>
+        <a href="sign_up.html" class="signUP">Sign up</a>
       </nav>
     </header>
     <section class="content-main">
@@ -152,7 +150,9 @@
         </p>
         <div>
           <input id="edtEmail" type="text" placeholder="Email address" />
-          <a class="signUP" href="#"><strong>Sign up for GitHub</strong></a>
+          <a class="signUP" href="sign_up.html"
+            ><strong>Sign up for GitHub</strong></a
+          >
         </div>
       </article>
       <img id="world" src="img_src/world.png" width="400px" />
