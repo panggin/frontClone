@@ -1,0 +1,111 @@
+body {
+  background-color: #081838;
+  color: white;
+  margin: 15px 20px;
+}
+header {
+  margin: 15px 15px 15px;
+  display: grid;
+  grid-template-columns: 40px 1fr 400px;
+}
+header img {
+  float: left;
+  padding: 0px;
+}
+header ul {
+  margin: 0px;
+  padding: 0px 0px 0px 20px;
+}
+header li {
+  margin-top: 10px;
+  list-style-type: none;
+  float: left;
+}
+header a {
+  color: white;
+  text-decoration: none;
+  margin-left: 15px;
+}
+.nav-right {
+  float: right;
+}
+.nav-right #search {
+  width: 200px;
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  background-color: #293142;
+}
+.signUP {
+  border: 1px solid white;
+  padding: 5px 8px 8px;
+  border-radius: 5px;
+}
+.content-main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 100px 15px 15px;
+}
+.content-main h1 {
+  margin-top: 0px;
+  font-size: 55px;
+}
+.content-main p {
+  font-size: 22px;
+  color: #5a73a6;
+}
+.content-main div {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+}
+.content-main #edtEmail {
+  padding: 15px;
+  font-size: 15px;
+  border: none;
+  border-radius: 5px;
+}
+.content-main .signUP {
+  font-size: 15px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  padding: 15px;
+  background-color: green;
+  border: none;
+  margin-left: 8px;
+}
+.content-main #world {
+  margin: auto;
+  text-align: center;
+  filter: invert(100%);
+}
+#mini {
+  display: none;
+}
+.content-sub hr {
+  margin: 100px 0px 20px;
+  border: 0.5px solid gray;
+}
+.content-sub li {
+  margin-right: 50px;
+  list-style-type: none;
+  float: left;
+}
+.content-sub h3 {
+  margin-bottom: 7px;
+}
+.content-sub p {
+  margin: 0px;
+  font-size: 12px;
+  color: lightgray;
+}
+@media screen and (max-width: 1023px) {
+  body * {
+    display: none;
+  }
+  #mini {
+    display: block;
+    margin-top: 50px;
+    text-align: center;
+  }
+}
