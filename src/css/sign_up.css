@@ -74,6 +74,9 @@ article .edt {
   border-radius: 5px;
   border: 1px solid lightgray;
 }
+article #email::placeholder {
+  color: black;
+}
 label {
   color: rgb(100, 100, 100);
   font-size: 14px;
