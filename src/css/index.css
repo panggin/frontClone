@@ -79,7 +79,6 @@ header a {
   margin-left: 8px;
 }
 .content-main #world {
-  width: 70%;
   margin: auto;
   text-align: center;
   filter: invert(100%);
@@ -126,7 +125,7 @@ header a {
     width: 40%;
   }
   to {
-    width: 70%;
+    width: 65%;
   }
 }
 @media screen and (max-width: 1023px) {
