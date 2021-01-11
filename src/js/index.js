@@ -1,5 +1,6 @@
 const edtEmail = document.getElementById("edtEmail");
 const btnSignUP = document.querySelectorAll(".signUP");
+const imgWorld = document.getElementById("world");
 //console.dir(edtEmail);
 //console.log(btnSignUP);
 
