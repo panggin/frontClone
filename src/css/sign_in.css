@@ -42,7 +42,7 @@ header p {
   float: right;
   margin: 0px;
 }
-#sign-in #btn_sign-in {
+#sign-in .btn {
   width: 100%;
   display: block;
   border-radius: 5px;

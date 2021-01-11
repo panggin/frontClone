@@ -1,13 +1,20 @@
 const edtEmail = document.getElementById("edtEmail");
 const btnSignUP = document.querySelectorAll(".signUP");
-console.dir(edtEmail);
-console.log(btnSignUP);
+//console.dir(edtEmail);
+//console.log(btnSignUP);
 
-function isClick(num) {
+function handlerClick() {
   const email = edtEmail.value;
-  if (email != "") {
+  //console.log(email);
+  if (email !== "") {
     const value = "?email:" + email;
-    btnSignUP[num].href += value;
-    console.log(email);
+    this.href += value;
   }
 }
+function init() {
+  for (let idx=0; idx<btnSignUP.length; idx++) {
+    btnSignUP[idx].addEventListener("click", handlerClick);
+  }
+}
+
+init();
