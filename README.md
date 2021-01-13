@@ -1,4 +1,4 @@
 # frontClone
 
 GitHub page front clone<br>
-web page : https://hbkim14.github.io/frontClone/
+web page : https://panggin.github.io/frontClone/
